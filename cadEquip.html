@@ -30,6 +30,8 @@
     <form>
         <table>
             <h1 class="titulo">CADASTRAR EQUIPAMENTO:</h1><br>
+            
+            
             <tr>
                 <td class="alinharRotulos">Tipo:</td>
                 <td><input id="txtNomeProduto" type="text"></td>
@@ -40,7 +42,7 @@
             </tr>
             <tr>
                 <td class="alinharRotulos">Localização:</td>
-                <td><input id="txtDetProduto" type="text"></td>
+                <td><input type="text"></td>
             </tr>
             <tr>
                 <td class="alinharRotulos">Doação?:</td>
@@ -52,10 +54,10 @@
                     </select>
                 </td>
             </tr>
-            <tr>
-                <td class="alinharRotulos">Dê mais detalhes:</td>
-                <td><input id="txtProcProduto" type="text"></td>
-            </tr>
+
+            <td class="mens">Dê mais detalhes:</td>
+            <td><textarea class="alinharRotulos" cols="35" rows="8"></textarea></td>
+
             <tr>
                 <td><br>
                     <input type="button" value="Cadastrar" class="cadastro" onclick="validarProduto('txtNomeProduto','txtCodProduto','txtDetProduto','qtidadeProduto','txtProcProduto')">
