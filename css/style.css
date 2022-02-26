@@ -116,6 +116,7 @@
 .titulo {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(11,112,252);
 }
 
 .container {
@@ -235,6 +236,7 @@
 
 .cadastro {
     background-color: orange;
+    text-align: center;
 }
 
 .table, .tr, .th, .td {
@@ -242,4 +244,8 @@
     text-align: center;
     width: 800px;
     height: 25px;
+}
+
+.th {
+    color: rgb(11,112,252);
 }
