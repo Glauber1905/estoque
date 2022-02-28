@@ -76,7 +76,7 @@
     background: white;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    margin-left: 14%;
 }
 
 @media screen and (min-width: 0) {
@@ -149,6 +149,22 @@
 .cadastro {
     background-color: orange;
     text-align: center;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.cadastro2 {
+    background-color: orange;
+    text-align: center;
+    margin-left: 230px;
+    position: absolute;
+}
+
+.cadastro3 {
+    background-color: orange;
+    text-align: center;
+    margin-left: 85px;
+    position: absolute;
 }
 
 .table, .tr, .th, .td {
@@ -164,4 +180,8 @@
 
 .mens {
     text-align: top;
+}
+
+#txtNomeProduto {
+    width: 244px;
 }
