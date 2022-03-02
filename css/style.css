@@ -30,19 +30,13 @@
     padding: 1rem;
 }
 
-.icone_descricao {
-    font-size: 1.1875rem;
-    line-height: 1.5;
-    text-align: center;
-}
-
 .icone_imagem {
     height: 250px;
 }
 
 .icone_titulo {
     font-size: 1.4375rem;
-    text-align: center;
+    margin-left: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
