@@ -8,8 +8,25 @@
     padding-right: 2rem;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.menu {
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .menu_link {
-    width:30%;
+    width:100px;
     background-color: rgb(222, 222, 222);
     border:0px;
     padding:5px;
@@ -18,6 +35,9 @@
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu_link:hover {
